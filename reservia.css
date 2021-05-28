@@ -110,15 +110,27 @@ input{
 	f53a/ 10f53a
 }
 
-#Hebergements{
-	display: columns;
+.Hebergements{
+	
+	flex-flow: column-wrap;
 	background-color: #f2f2f2;
+	width: 60%;
+	height:20%;
+
 }
 
 #populaire{
-	display: column;
+	align-items:;
 	background-color: #f2f2f2;
 }
+
+#bas_page{
+	display: flex;
+	justify-content: space-around;
+	background-color: #f2f2f2;
+}
+
+
 
 
  
