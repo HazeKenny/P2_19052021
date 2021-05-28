@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Raleway-Regular";
-	src: url(/Fonts/raleway.zip) format(ttf)
+	font-family: "Raleway";
+	src: url(/Fonts/Raleway-Regular.ttf)
 }
 
 #logo{
@@ -23,7 +23,6 @@ nav{
 	display: flex;
 	justify-content: center;
 	color: #0065FC;
-
 }
 
 .b_act{
@@ -71,8 +70,6 @@ input{
 	border: none;
 }
 
-
-
 #box_filtres{
 	display: inline-block;
 	align-items: center;
@@ -111,17 +108,16 @@ input{
 }
 
 .Hebergements{
-	
-	flex-flow: column-wrap;
 	background-color: #f2f2f2;
-	width: 60%;
-	height:20%;
+	border-radius: 0 20px 20px 0;
+	width: 55%
 
 }
 
-#populaire{
-	align-items:;
+
+.populaire{
 	background-color: #f2f2f2;
+	border-radius: 0 20px 20px 0;
 }
 
 #bas_page{
